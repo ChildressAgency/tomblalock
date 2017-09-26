@@ -1,8 +1,11 @@
 jQuery(document).ready(function($){
 
   /* menu */
-  $(".menu-open").on('click', function(){
-    $(".mobilenav").fadeToggle(500);
+  $(".menu-open").on('click', function(evt){
+    evt.preventDefault();
+    $(".mobilenav").fadeToggle(500, function(){
+      window.scrollTo(0,0);
+    });
     $(".top-menu").toggleClass("top-animate");
     $("body").toggleClass("noscroll");
     $(".mid-menu").toggleClass("mid-animate");
