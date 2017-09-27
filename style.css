@@ -699,6 +699,69 @@ footer .copyright>a:focus{
   color:#fff;
 }
 
+.contact-icon{
+  margin-top:40px;
+  text-align:center;
+  padding-top:120px;
+  position:relative;
+}
+.contact-icon:before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  background-image:url(images/sprites.png);
+  margin-left:auto;
+  margin-right:auto;
+}
+.contact-icon.email:before{
+  height:105px;
+  width:105px;
+  background-position:-290px 0px;
+}
+.contact-icon.mail:before{
+  height:79px;
+  width:113px;
+  background-position:-290px -120px;
+}
+.contact-icon.phone:before{
+  height:116px;
+  width:115px;
+  background-position:-290px -220px;
+}
+
+.contact-form{
+  max-width:500px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:40px;
+}
+.contact-form .form-group{
+  margin-bottom:5px;
+}
+.contact-form .form-control{
+  border-radius:0;
+  border-color:#b1b1b0;
+}
+.contact-form .form-group:last-child{
+  text-align:center;
+}
+.contact-form .btn-main{
+  color:#213b61;
+  font-weight:400;
+  background-color:#fad345;
+  border:1px solid #b1b1b0;
+  padding:3px 70px;
+  -webkit-transition:all .3s ease;
+  transition:all .3s ease;
+}
+.contact-form .btn-main:hover,
+.contact-form .btn-main:focus{
+  color:#fff;
+  background-color:#049648;
+}
+
 
 @media (max-width:767px){
   .for-commissioner>img{
