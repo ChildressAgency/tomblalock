@@ -762,6 +762,21 @@ footer .copyright>a:focus{
   background-color:#049648;
 }
 
+#career{
+  background-color:#213b61;
+  color:#fff;
+  padding-top:40px;
+  padding-bottom:40px;
+}
+#community{
+  padding-top:40px;
+  padding-bottom:40px;
+}
+#personalLife{
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
 
 @media (max-width:767px){
   .for-commissioner>img{
@@ -843,6 +858,10 @@ footer .copyright>a:focus{
     background-position:0px -173px;
     bottom:0px;
     right:0px;
+  }
+  .two-col-layout{
+    column-count:2;
+    column-gap:70px;
   }
 }
 @media (min-width:768px) and (max-width:991px){
