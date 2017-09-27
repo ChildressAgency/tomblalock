@@ -627,6 +627,78 @@ footer .copyright>a:focus{
   text-decoration:underline;
 }
 
+.page-title{
+  text-transform:uppercase;
+  letter-spacing:4px;
+}
+.page-title-border{
+  height:4px;
+  border-top:6px solid #049648;
+  border-bottom:6px solid #049648;
+}
+.instagram-feed{
+  margin-top:40px;
+}
+.instagram-feed .social{
+  text-align:center;
+  margin-top:60px;
+}
+.instagram-feed .social>a{
+  font-size:50px;
+  color:#049648;
+  -webkit-transition:all .3s ease;
+  transition:all .3s ease;
+}
+.instagram-feed .social>a+a{
+  margin-left:15px;
+}
+.instagram-feed .social>a:hover,
+.instagram-feed .social>a:focus{
+  color:#fad345;
+}
+#main{
+  padding-top:40px;
+  padding-bottom:40px;
+  background-color:#fbf6ee;
+}
+.signup{
+  background-color:#213b61;
+  padding-top:40px;
+  padding-bottom:40px;
+}
+.signup-form{
+  max-width:350px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  color:#fff;
+}
+.signup-form>p{
+  font-size:24px;
+}
+.signup-form .form-control{
+  border-radius:0;
+}
+.signup-form .form-group{
+  margin-bottom:5px;
+}
+.signup-form .btn-main{
+  display:block;
+  width:100%;
+  background-color:#fad345;
+  border:none;
+  height:32px;
+  color:#213b61;
+  font-weight:500;
+  -webkit-transition:all .3s ease;
+  transition:all .3s ease;
+}
+.signup-form .btn-main:hover,
+.signup-form .btn-main:focus{
+  background-color:#049648;
+  color:#fff;
+}
+
 
 @media (max-width:767px){
   .for-commissioner>img{
