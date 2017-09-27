@@ -639,21 +639,21 @@ footer .copyright>a:focus{
 .instagram-feed{
   margin-top:40px;
 }
-.instagram-feed .social{
+#main .social{
   text-align:center;
   margin-top:60px;
 }
-.instagram-feed .social>a{
+#main .social>a{
   font-size:50px;
   color:#049648;
   -webkit-transition:all .3s ease;
   transition:all .3s ease;
 }
-.instagram-feed .social>a+a{
+#main .social>a+a{
   margin-left:15px;
 }
-.instagram-feed .social>a:hover,
-.instagram-feed .social>a:focus{
+#main .social>a:hover,
+#main .social>a:focus{
   color:#fad345;
 }
 #main{
