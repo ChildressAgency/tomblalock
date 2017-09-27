@@ -1,7 +1,7 @@
 <?php get_header(); ?>
   <main id="main">
     <div class="container">
-      <h1 class="page-title"><?php echo get_field('page_title') ? get_field('page_title') : get_the_title(); ?></h1>
+      <h1 class="page-title">News And Events</h1>
       <hr class="page-title-border" />
       <?php 
         $paged = get_query_var('paged') ? get_query_var('paged') : 1;
