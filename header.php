@@ -27,7 +27,7 @@
         <a href="<?php echo home_url('contribute'); ?>">Contribute</a>
       </div>
       <div class="volunteer">
-        <a href="<?php echo home_url('our-team'); ?>">Volunteer</a>
+        <a href="<?php echo home_url('contact'); ?>">Volunteer</a>
       </div>
       <?php get_template_part('partials/social', 'section'); ?>
     </div>
