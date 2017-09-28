@@ -51,7 +51,7 @@
         </div>
         <div class="col-sm-7">
           <div class="instagram-feed">
-            <?php echo do_shortcode('[instagram-feed]'); ?>
+            <?php echo do_shortcode('[instagram-feed num=4 cols=4]'); ?>
           </div>
         </div>
       </div>
