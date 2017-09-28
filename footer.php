@@ -1,5 +1,9 @@
 <?php if(!is_front_page()){ get_template_part('partials/contribute_volunteer', 'section'); } ?>
-
+  <section id="vote">
+    <div class="container-fluid">
+      <h1>Vote<span></span>November 7<sup>th</sup></h1>
+    </div>
+  </section>
   <footer>
     <div class="container-fluid">
       <div class="footer-logo">

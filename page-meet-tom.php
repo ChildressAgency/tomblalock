@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <h1 class="page-title">Meet Tom</h1>
+          <h1 class="page-title"><?php echo get_field('page_title') ? get_field('page_title') : get_the_title(); ?></h1>
           <hr class="page-title-border" />
           <?php if(have_posts()): while(have_posts()): the_post(); ?>
             <?php the_content(); ?>

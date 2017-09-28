@@ -28,7 +28,7 @@
             <div class="blog-summary">
               <h3><?php the_title(); ?></h3>
               <?php
-                $event_date = get_field('event_date', false false);
+                $event_date = get_field('event_date', false, false);
                 $event_date = new DateTime($event_date);
               ?>
               <p class="event-date"><?php echo $event_date->format('l, F j, Y'); ?><?php if(get_field('event_time')){ echo ' -- <span>' . get_field('event_time') . '</span>'; } ?></p>

@@ -12,8 +12,9 @@
 <section class="signup">
   <div class="container">
     <div class="signup-form">
-      <p>Sign up to get the latest updates as we capture the campaign</p>
-      <?php echo do_shortcode('[123-contact-form i2977177]'); ?>
+      <?php if(have_posts()): while(have_posts()): the_post(); ?>
+        <?php the_content(); ?>
+      <?php endwhile; endif; ?>
     </div>
   </div>
 </section>

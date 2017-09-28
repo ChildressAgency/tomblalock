@@ -2,7 +2,7 @@
   <main id="main">
     <section id="visionStatement">
       <div class="container">
-        <h1 class="page-title">Vision</h1>
+        <h1 class="page-title"><?php echo get_field('page_title') ? get_field('page_title') : get_the_title(); ?></h1>
         <h2><?php the_field('vision_intro'); ?></h2>
       </div>
     </section>
