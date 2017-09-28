@@ -23,7 +23,7 @@
         </div>
       </section>
       <section id="contactForm">
-        <?php echo do_shortcode('[contact-form]'); ?>
+        <?php echo do_shortcode('[contact-form-7 id="20" title="Contact form 1"]'); ?>
       </section>
       <?php get_template_part('partials/social', 'section'); ?>
     </div>
