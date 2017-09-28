@@ -937,6 +937,34 @@ footer .copyright>a:focus{
   background-color:rgba(33,59,97,.6);
 }
 
+.donate-link{
+  max-width:550px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  margin-top:60px;
+}
+.donate-link>p{
+  font-size:13px;
+  margin-top:25px;
+  font-style:italic;
+}
+.btn-donate{
+  background-color:#fad345;
+  color:#213b61;
+  font-weight:500;
+  font-size:18px;
+  padding:4px 40px;
+  -webkit-transition:all .3s ease;
+  transition:all .3s ease;
+}
+.btn-donate:hover,
+.btn-donate:focus{
+  background-color:#049648;
+  color:#fff;
+  text-decoration:none;
+}
+
 
 @media (max-width:767px){
   .for-commissioner>img{

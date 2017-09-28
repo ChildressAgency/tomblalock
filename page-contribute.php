@@ -6,6 +6,10 @@
       <hr class="page-title-border" />
       <?php the_content(); ?>
     <?php endwhile; endif; ?>
+    <div class="donate-link">
+      <a href="<?php the_field('paypal_donate_link'); ?>" class="btn-donate">DONATE</a>
+      <?php the_field('paypal_donate_disclaimer'); ?>
+    </div>
   </div>
 </main>
 <?php get_footer(); ?>

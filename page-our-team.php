@@ -8,7 +8,7 @@
           <?php if($i%3==0){ echo '<div class="clearfix"></div>'; } ?>
           <div class="col-sm-4">
             <div class="team-member">
-              <img src="<?php echo get_sub_field('team_member_image') ? get_sub_field('team_member_image') : get_stylesheet_directory_uri() . '/images/profile_placeholder.png'; ?>" class="img-responsive center-block" alt="<?php the_sub_field('team_member_name'); ?>" />
+              <img src="<?php echo get_sub_field('team_member_image') ? get_sub_field('team_member_image') : get_stylesheet_directory_uri() . '/images/profile-placeholder.png'; ?>" class="img-responsive center-block" alt="<?php the_sub_field('team_member_name'); ?>" />
               <h4><?php the_sub_field('team_member_name'); ?></h4>
               <p><?php the_sub_field('team_member_position'); ?></p>
             </div>
